@@ -17,7 +17,13 @@ public class Pizza {
 
       for (Thread step : cookingSteps) {
           step.start();
+         //OVERTHINKING IT
+          step.join();
       }
+
+
+
+
   }
 
   // DO NOT change any of the methods below
